@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
+  <body>
+    <div id="login">
+      <form>
+        <div id="error"></div>
+        <input id="user" placeholder="enter your name" required/>
+        <button id="log_in">Enter chat</button>
+      </form>
+    </div>
+    <div id="messageContainer">
+      <div id="messages"></div>
+      <form id="message">
+        <input id="msg" required/>
+        <button id="sendbutton"><img id="send" src="send.png" alt="send"/></button>
+      </form>
+      <button id="logOut">log out</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+
+</html>

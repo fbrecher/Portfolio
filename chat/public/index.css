@@ -1,0 +1,122 @@
+header, body, html{
+  background-color: rgb(255, 226, 226);
+}
+
+#log_in{
+  position:absolute;
+  top: 45%;
+  left: 35%;
+  right: 35%;
+  color: lightpink;
+  font-weight: bold;
+  background-color: rgb(241, 238, 238);
+  border-radius: 2rem;
+  border-color: lightpink;
+  height: 2rem;
+}
+
+#user{
+  position:absolute;
+  top: 35%;
+  left: 35%;
+  right: 35%;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  border-radius: .5rem;
+  border-color: lightpink;
+  height: 2rem;
+}
+
+
+#login{
+  margin: 0;
+  padding: 0;
+  height: 97.5vh;
+  width: 80%;
+  margin-left: 20vh;
+  margin-right: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("login.gif");
+ 
+
+  
+border-radius: 6pt;
+                                      
+                                      
+}
+
+
+#messages {
+  background-image: url("messageBackground.jpg");
+  height: 30rem;
+  border: 1px solid black;
+  margin-bottom: .5em;
+  overflow: auto;
+}
+
+#message {
+  display: flex;
+  gap: .5em;
+}
+
+#msg {
+  background-color: rgb(250, 241, 241);
+  flex: 1;
+}
+
+#messageContainer {
+  display: none;
+}
+
+#error {
+  color: red;
+}
+
+#send{
+   height: 2rem;
+}
+
+#sendbutton{
+  background-image: url("messageBackground.jpg");
+}
+
+#logOut{
+  position:absolute;
+  bottom: 0;
+  left: 45%;
+  right: 45%;
+  color: lightpink;
+  font-weight: bold;
+  background-color: rgb(241, 238, 238);
+  border-radius: 3rem;
+  border-color: lightpink;
+  height: 2rem;
+}
+
+.info{
+  color: rgb(96, 12, 105);
+  background-color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message{
+  padding: 1%;
+  border-radius: 20px;
+  background-color: rgba(168, 162, 162, 0.682);
+  width: max-content;
+}
+
+.my_message{
+  padding: 1%;
+  border-radius: 20px;
+  background-color: rgb(174, 164, 235, 0.682);
+  width: max-content;
+  margin-left: auto;
+  text-align: right;
+}
