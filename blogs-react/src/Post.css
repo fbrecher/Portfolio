@@ -1,0 +1,21 @@
+.post {
+  margin-bottom: 1em;
+  ;
+}
+
+.post .title {
+  font-style: italic;
+}
+
+
+
+
+.comments {
+  max-height: 350px; /* larger then ever will be needed - but not to large or delay before we see collapsing transition...*/
+  transition: max-height 1s;
+  overflow: auto;
+}
+
+.comments.closed {
+  max-height: 0;
+}
